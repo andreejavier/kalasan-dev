@@ -1,9 +1,10 @@
 <?php
 // Database connection settings
-$host = 'localhost';
-$db = 'dev_kalasan_db';
-$user = 'root';
-$pass = ''; // Update with your password if needed
+
+$servername = "sql211.infinityfree.com";
+$username = "if0_38393967"; 
+$password = "cqsYanZIbqY "; 
+$dbname = "if0_38393967_kalasan_db";
 
 try {
     // Establish the connection using PDO

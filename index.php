@@ -1,6 +1,6 @@
 <?php
 session_start();
-include 'config/db_connection.php';  // Ensure this file contains your database connection details
+include 'db_connection.php';  // Ensure this file contains your database connection details
 
 $error = '';
 
@@ -155,7 +155,7 @@ $conn->close();
         <div class="card">
             <div class="card-body">
                 <h4 class="card-title text-center">Log In</h4>
-                <form class="login-form" action="LogIn.php" method="POST">
+                <form class="login-form" action="index.php" method="POST">
                     <label for="username">Username</label>
                     <input type="text" id="username" name="username" class="form-control" placeholder="Username" required>
 

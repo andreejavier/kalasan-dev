@@ -1,10 +1,7 @@
 <?php
 header('Content-Type: application/json');
 
-$servername = "localhost";
-$username = "root"; // Update with your username
-$password = ""; // Update with your password
-$dbname = "proj-kalasan_db"; // Update with your database name
+require 'db_connect.php';
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
