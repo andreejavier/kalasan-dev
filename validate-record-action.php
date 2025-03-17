@@ -1,9 +1,10 @@
 <?php
 // Database connection settings
-$host = 'localhost';
-$db = 'dev_kalasan_db';
-$user = 'root';
-$pass = ''; 
+
+$servername = "sql211.infinityfree.com";
+$username = "if0_38393967"; 
+$password = "cqsYanZIbqY "; 
+$dbname = "if0_38393967_kalasan_db";
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['planted_id'])) {
     $recordId = intval($_POST['planted_id']);

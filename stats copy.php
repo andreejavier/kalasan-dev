@@ -2,10 +2,11 @@
 header('Content-Type: application/json');
 
 // Database connection
-$host = 'localhost';
-$dbname = 'landong_db';
-$username = 'root';
-$password = 'your_db_password';
+
+$servername = "sql211.infinityfree.com";
+$username = "if0_38393967"; 
+$password = "cqsYanZIbqY "; 
+$dbname = "if0_38393967_kalasan_db";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 

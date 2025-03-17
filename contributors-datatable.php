@@ -6,10 +6,11 @@ if (!isset($_SESSION['admin_id'])) {
 }
 
 // Database connection
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "dev_kalasan_db";
+
+$servername = "sql211.infinityfree.com";
+$username = "if0_38393967"; 
+$password = "cqsYanZIbqY "; 
+$dbname = "if0_38393967_kalasan_db";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {

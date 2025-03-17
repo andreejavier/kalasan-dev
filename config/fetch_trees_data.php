@@ -1,9 +1,4 @@
-<?php
-// Database connection
-$host = 'localhost';
-$dbname = 'proj-kalasan_db'; // Ensure this matches the name of your created database
-$username = 'root';
-$password = 'your_db_password'; // Replace with your actual DB password
+ 
 
 $conn = new mysqli($host, $username, $password, $dbname);
 
